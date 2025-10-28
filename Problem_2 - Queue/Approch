@@ -13,7 +13,8 @@ We only use a fixed-size array and a few pointers, giving O(1) space complexity.
 In short:  
 > Use a fixed-size array with `front` and `rear` pointers, wrap around using modulo, and perform all queue operations in constant time.
 
-## Complexity
+Complexity
 - Time Complexity: O(1) per operation (`enqueue`, `dequeue`, `Front`, `Rear`)  
 - Space Complexity: O(k), where k is the size of the queue
+
 
